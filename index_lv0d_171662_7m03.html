@@ -1,0 +1,48 @@
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+kiwi * true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+orange + grape
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+86 + banana
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const squareRoot = num => Math.sqrt(num);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple - 22
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+console.log(getRandomString());
+
+kiwi
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+4,20,56,81,37,48,78,63,44 / false
+const findSmallestNumber = numbers => Math.min(...numbers);
+// This is a comment
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true + 40,83,41,53,24,14,56,0,8,22,70,60,44,37,23,42,7,36,74,99,58,64,87,46,43,22,93,49,67,90,45,16,95,63,91,96,39,81,32,34,18,76,79,47,79,46
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getUniqueValues = array => [...new Set(array)];
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+// This is a comment
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+true * 32
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const squareRoot = num => Math.sqrt(num);
+
+const reverseString = str => str.split("").reverse().join("");
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
